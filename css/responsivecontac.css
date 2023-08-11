@@ -1,0 +1,175 @@
+@media (max-width:670px) {
+  * {
+    font-family: "Lato", sans-serif
+  }
+
+  .headerWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .headerLogo img {
+    width: 135px;
+  }
+
+  .headerList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .headerList a {
+    padding-left: 17px;
+    font-size: 14px;
+  }
+
+  .mainWrapper {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 40px;
+
+  }
+
+  .text1 {
+    padding-right: 100px;
+  }
+
+  .text1 h1 {
+    font-size: 20px;
+
+  }
+
+  .inputWrapper {
+    display: flex;
+    align-items: center;
+    height: 470px;
+    width: 280px;
+
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+
+  .input p {
+    font-size: 12px;
+    margin-left: 0px;
+    padding-left: 5px;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .input input {
+    width: 230px;
+    height: 23px;
+    padding-left: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+
+  .input textarea {
+    width: 230px;
+    height: 23px;
+    font-size: 12px;
+    border-radius: 5px;
+    padding-left: 12px;
+  }
+
+  .input a {
+    width: 10px;
+  }
+
+
+
+
+  .footerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+
+  }
+
+  .footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+  }
+
+  .img1 {
+    padding-left: 40px;
+  }
+
+  .img1 img {
+    width: 145px;
+
+  }
+
+  .emailPhone img {
+    width: 25px;
+
+  }
+
+  .emailPhone {
+    padding-right: 40px;
+  }
+
+  .footerList {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 12px;
+
+  }
+
+  .footerProducts h1 {
+    font-size: 14px;
+  }
+
+  .footerProducts a {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .footerStore h1 {
+    font-size: 14px;
+  }
+
+  .footerStore a {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .footerContact h1 {
+    font-size: 14px;
+  }
+
+  .footerContact a {
+    font-size: 12px;
+    padding-left: 30px;
+  }
+
+  .copyright {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 38px;
+  }
+
+  .copyright h1 {
+    color: #F9FBFE;
+
+    font-size: 12px;
+
+  }
+}

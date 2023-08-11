@@ -1,0 +1,302 @@
+@media (max-width: 670px) {
+  * {
+    font-family: "Lato", sans-serif
+  }
+
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerLogo img {
+    width: 135px;
+    height: 27px;
+    flex-shrink: 0;
+  }
+
+  .headerLogo {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+
+  .headerList {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 57px;
+    padding-right: 93px;
+  }
+
+  .headerList a {
+    color: #F9FBFE;
+    font-size: 14px;
+  }
+
+  .headerText h1 {
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+  }
+
+  .headerText h2 {
+    color: #F9FBFE;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+
+  .box1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jpg1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+
+  }
+
+  .jpg1 img {
+    width: 319.254px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .text1 {
+
+    padding-left: 40px;
+  }
+
+  .text1 h1 {
+    color: #0F8B8D;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+
+
+  }
+
+  .text1 h2 {
+    margin-top: 0px;
+    padding-top: 10px;
+    color: #143642;
+    font-size: 12px;
+    padding-right: 86px;
+
+  }
+
+  .box2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .text2 {
+    padding-left: 40px;
+  }
+
+  .text2 h1 {
+    color: #0F8B8D;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+  }
+
+  .text2 h2 {
+    padding-top: 9px;
+    color: #143642;
+    font-size: 12px;
+    margin-top: 0px;
+
+
+  }
+
+  .jpg2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .btn2 {
+    width: 135px;
+    height: 28px;
+
+  }
+
+  .box3 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text3 {
+    padding-left: 40px;
+  }
+
+  .text3 h1 {
+    color: #0F8B8D;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  .text3 h2 {
+    color: #143642;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+
+  .btn3 {
+    width: 135px;
+    height: 28px;
+
+  }
+
+  .jpg3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .findUs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .findText h1 {
+    font-size: 20px;
+  }
+
+  .findImg {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+
+    justify-content: center;
+
+  }
+
+  .findImg img {
+    object-fit: cover;
+    aspect-ratio: 3/3;
+    width: 70px;
+  }
+
+  .findTexttt {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .findTexttt h1 {
+    font-size: 20px;
+  }
+
+  .findTexttt h2 {
+    font-size: 12px;
+    color: #143642;
+    text-align: center;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .btn4 {
+    height: 37px;
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 40px;
+    width: auto;
+
+    gap: 0px;
+  }
+
+  .footerWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footerLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px 0px 40px;
+
+
+  }
+
+  .img1 img {
+    width: 145px;
+    height: 29px;
+    flex-shrink: 0;
+  }
+
+  .emailPhone img {
+    width: 25px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .footerList {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 40px;
+  }
+
+  .footerList a {
+    font-size: 12px;
+    margin-left: 30px;
+  }
+
+  .footerList h1 {
+    font-size: 14px;
+  }
+
+  .footerProducts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .copyright {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 38px;
+  }
+
+  .copyright h1 {
+    color: #F9FBFE;
+
+    font-size: 12px;
+
+  }
+}
